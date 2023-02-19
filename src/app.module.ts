@@ -9,4 +9,4 @@ import { TodoService } from './todo.service';
     controllers: [AppController],
     providers: [AppService, TodoService, PrismaService],
 })
-export class AppModule {}
+export class AppModule { }
